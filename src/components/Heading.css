@@ -1,0 +1,11 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  line-height: 1.5;
+}

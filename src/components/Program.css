@@ -1,0 +1,33 @@
+.middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 40px 0;
+}
+
+input {
+  padding: 0 30px;
+  border-radius: 3px;
+}
+
+.card-image {
+  height: 200px; /* Set the desired height for the images */
+  object-fit: cover;
+}
+
+.search-box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input[type="text"] {
+    width: 300px; /* Set the desired width for the search box */
+    height: 40px; /* Set the desired height for the search box */
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  
